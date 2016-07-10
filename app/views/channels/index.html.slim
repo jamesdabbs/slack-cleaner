@@ -1,0 +1,23 @@
+h1 Channels
+table.table.table-hover.table-striped
+  thead
+    tr
+      th Title
+      th
+  tbody
+    - @channels.each do |c|
+      tr
+        td= c.name
+        td= button_to "Clear", channel_path(c.id), method: :delete, class: "btn btn-default", confirm: "Are you sure?"
+
+h1 Groups
+table.table.table-hover.table-striped
+  thead
+    tr
+      th Title
+      th
+  tbody
+    - @groups.each do |g|
+      tr
+        td= g.name
+        td= button_to "Clear", group_path(g.id), method: :delete, class: "btn btn-default", confirm: "Are you sure?"
