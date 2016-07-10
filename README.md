@@ -1,24 +1,5 @@
-# README
+# Slack Cleaner
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Bulk delete all old messages in a Slack channel
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Go to https://slack-cleaner.herokuapp.com if that's your thing
